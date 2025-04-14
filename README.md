@@ -1,28 +1,43 @@
-# YOLOv8 Object Detection Project
+# YOLOv8 Black Object Detection
 
-![YOLOv8 Logo](https://ultralytics.com/images/logo.png)
+![Training Preview](results/black_detection_v1/train_batch0.jpg) 
+*Sample training batch with annotations*
 
-This project implements object detection using YOLOv8 to detect black-colored objects. It includes training on custom data and deployment for real-time camera inference.
+## 📊 Training Results
 
-## Features
+### Performance Metrics
+| Metric | Chart |
+|--------|-------|
+| **Precision-Recall** | ![PR Curve](results/black_detection_v1/PR_curve.png) |
+| **F1 Score** | ![F1 Curve](results/black_detection_v1/F1_curve.png) |
+| **Confusion Matrix** | ![Conf Matrix](results/black_detection_v1/confusion_matrix_normalized.png) |
 
-- Custom dataset training
-- GPU-accelerated training (Kaggle/Colab supported)
-- Real-time camera inference
-- Model export to ONNX/TensorRT
-- Flask web interface option
+### Learning Curves
+<div align="center">
+  <img src="results/black_detection_v1/results.png" width="80%">
+  <p><em>Training metrics over epochs</em></p>
+</div>
 
-## Installation
+## 🔍 Validation Samples
 
-### Prerequisites
-- Python 3.8+
-- NVIDIA GPU (recommended) with CUDA 11.8
+### Labeled vs Predicted
+| | Labels | Predictions |
+|-|--------|-------------|
+| **Batch 0** | ![val_labels0](results/black_detection_v1/val_batch0_labels.jpg) | ![val_pred0](results/black_detection_v1/val_batch0_pred.jpg) |
+| **Batch 1** | ![val_labels1](results/black_detection_v1/val_batch1_labels.jpg) | ![val_pred1](results/black_detection_v1/val_batch1_pred.jpg) |
 
-### Setup
-```bash
-# Clone repository
-git clone https://github.com/yourusername/yolo-black-detection.git
-cd yolo-black-detection
+## 📈 Advanced Metrics
 
-# Install dependencies
-pip install -r requirements.txt
+<div align="center">
+  <img src="results/black_detection_v1/labels_correlogram.jpg" width="45%">
+  <img src="results/black_detection_v1/P_curve.png" width="45%">
+  <p><em>Left: Label Correlations • Right: Precision Curve</em></p>
+</div>
+
+## 🛠️ Training Configuration
+```yaml
+# Reference: results/black_detection_v1/args.yaml
+batch: 16
+imgsz: 640
+lr0: 0.01
+weight_decay: 0.0005
