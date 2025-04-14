@@ -27,8 +27,10 @@
 | **Batch 1** | ![val_labels1](results/black_detection_v1/val_batch1_labels.jpg) | ![val_pred1](results/black_detection_v1/val_batch1_pred.jpg) |
 
 
-## Real-Time Performance
-![Live Detection Demo](result image.png "Working YOLOv8 model detecting black objects in real-time")
+## 🎥 Live Detection Results
+![Working YOLOv8 Detection](https://github.com/rohanshenoy30/yolotargetdetection/blob/main/results/black_detection_v1/result%20image.png?raw=true)
+*Real-time black object detection from camera feed*
+
 
 ## 📈 Advanced Metrics
 
