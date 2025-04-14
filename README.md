@@ -26,10 +26,8 @@
 | **Batch 0** | ![val_labels0](results/black_detection_v1/val_batch0_labels.jpg) | ![val_pred0](results/black_detection_v1/val_batch0_pred.jpg) |
 | **Batch 1** | ![val_labels1](results/black_detection_v1/val_batch1_labels.jpg) | ![val_pred1](results/black_detection_v1/val_batch1_pred.jpg) |
 
-
 ## 🎥 Live Detection Results
-![Working YOLOv8 Detection](https://github.com/rohanshenoy30/yolotargetdetection/blob/main/results/black_detection_v1/result%20image.png?raw=true)
-*Real-time black object detection from camera feed*
+![Live Demo](./result%20image.png)
 
 
 ## 📈 Advanced Metrics
