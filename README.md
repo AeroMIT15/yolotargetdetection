@@ -6,8 +6,6 @@
 ## 📊 Training Results
 
 ### Performance Metrics
-| Metric | Chart |
-|--------|-------|
 
 | **Confusion Matrix** | ![Conf Matrix](results/black_detection_v1/confusion_matrix_normalized.png) |
 
