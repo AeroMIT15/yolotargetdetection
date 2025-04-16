@@ -7,7 +7,7 @@
 
 ### Performance Metrics
 
-| **Confusion Matrix** | ![Conf Matrix](results/black_detection_v1/confusion_matrix_normalized.png) |
+ **Confusion Matrix**  ![Conf Matrix](results/black_detection_v1/confusion_matrix_normalized.png) 
 
 ### Learning Curves
 <div align="center">
