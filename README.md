@@ -8,8 +8,7 @@
 ### Performance Metrics
 | Metric | Chart |
 |--------|-------|
-| **Precision-Recall** | ![PR Curve](results/black_detection_v1/PR_curve.png) |
-| **F1 Score** | ![F1 Curve](results/black_detection_v1/F1_curve.png) |
+
 | **Confusion Matrix** | ![Conf Matrix](results/black_detection_v1/confusion_matrix_normalized.png) |
 
 ### Learning Curves
