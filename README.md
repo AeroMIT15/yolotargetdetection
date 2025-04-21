@@ -77,6 +77,8 @@ python targetfinal.py
 
 ---
 
+## this code saves all the frames in which the target has been detected in the "images" folder
+
 
 
 
