@@ -42,3 +42,46 @@ batch: 16
 imgsz: 640
 lr0: 0.01
 weight_decay: 0.0005
+
+
+
+
+
+# RPI COMMANDS
+
+This guide sets up a virtual environment, streams the Raspberry Pi camera to a virtual video device, and runs a Python script that uses the virtual camera.
+---
+
+## 📦NOTE: FOR THE NEW CODE
+just make virtual environment and run targetfinal.py from desktop
+
+---
+
+## 📦 Step 1: Create a Virtual Environment
+
+```bash
+python3 -m venv tflite-env
+source tflite-env/bin/activate
+```
+
+---
+
+
+
+## ▶️ Step 2: Run Your Python Script
+
+```bash
+cd ~/Desktop
+python targetfinal.py
+```
+
+---
+
+
+
+
+
+
+
+
+
