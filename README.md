@@ -47,9 +47,9 @@ weight_decay: 0.0005
 
 
 
-# RPI COMMANDS
+# Raspberry PI5 Deployment
 
-This guide sets up a virtual environment, streams the Raspberry Pi camera to a virtual video device, and runs a Python script that uses the virtual camera.
+to run I set up a virtual environment, stream the Raspberry Pi camera to a virtual video device, and runs a Python script that uses the virtual camera.
 ---
 
 ## 📦NOTE: FOR THE NEW CODE
